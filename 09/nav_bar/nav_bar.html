@@ -45,8 +45,13 @@ body {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	width: 175px;
 }
+
+.mainNav li {
+float: left;
+width: 16em;
+}
+
 .mainNav a {
 	color: #000;
 	font-size: 11px;
@@ -59,10 +64,10 @@ body {
 	background-image: url(images/nav.png);
 	background-repeat: no-repeat;
 	background-position: 0 2px;
-	border-bottom: none;
+	border-right: none;
 }
 .mainNav li:last-of-type a {
-	border-bottom: 1px dashed #999;
+	border-right: 1px dashed #999;
 }
 
 .mainNav a:hover {
@@ -75,7 +80,7 @@ body {
 .experts .expertsLink, .quiz .quizLink, .projects .projectsLink,
 .horoscopes .horoscopesLink {
 	background-color: #FFF;
-	background-position: 97% 100%;
+	background-position: 3% 100%;
 	padding-right: 14px;
 	padding-left: 30px;
 	font-weight: bold;
@@ -85,12 +90,12 @@ body {
 </head>
 <body class="horoscopes">
   <ul class="mainNav">
-    <li><a class="homeLink" href="/index.html">Главная</a></li>
-    <li><a class="featuresLink"  href="/features.html/">Сенсации</a></li>
-    <li><a class="expertsLink" href="/experts.html/">Экспертизы</a></li>
-    <li><a class="quizLink"  href="/quiz.html/">Мистификации</a></li>
-    <li><a class="projectsLink"  href="/projects.html/">Проекты</a></li>
-    <li><a class="horoscopesLink"  href="/horoscopes.html/">Гороскопы</a></li>
+    <li><a class="homeLink" href="index.html">Главная</a></li>
+    <li><a class="featuresLink"  href="features.html">Сенсации</a></li>
+    <li><a class="expertsLink" href="experts.html">Экспертизы</a></li>
+    <li><a class="quizLink"  href="quiz.html">Мистификации</a></li>
+    <li><a class="projectsLink"  href="projects.html">Проекты</a></li>
+    <li><a class="horoscopesLink"  href="horoscopes.html">Гороскопы</a></li>
   </ul>
 </body>
 </html>
